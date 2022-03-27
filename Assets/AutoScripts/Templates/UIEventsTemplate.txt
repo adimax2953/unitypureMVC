@@ -1,0 +1,12 @@
+namespace Assets.Src.MyUI.Events
+{
+	public class UIEvents
+	{
+		//  命名規則：類型 ＋ 動作				
+			
+		///<summary>
+		/// 開始啟動MVC
+		///</summary>
+		public const string MAIN_START_UP = "main_start_up";
+	}
+}

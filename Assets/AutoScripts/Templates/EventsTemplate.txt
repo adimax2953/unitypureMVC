@@ -1,0 +1,11 @@
+namespace Assets.Src.MyUI.Events
+{
+[System.Serializable]
+public class $ClassName
+{
+        //  NameRule¡GType ¡Ï Action
+
+$MemberFields
+
+}
+}

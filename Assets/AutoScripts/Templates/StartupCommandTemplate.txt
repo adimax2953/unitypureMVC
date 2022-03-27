@@ -1,0 +1,29 @@
+using System;
+using PureMVC.Interfaces;
+using PureMVC.Patterns;
+using Assets.Src.MyUI.Model;
+using Assets.Src.MyUI.View;
+using Assets.Src.MyUI.Events;
+namespace Assets.Src.MyUI.Controller
+{
+	public class StartupCommand : SimpleCommand
+	{
+		public override void Execute(INotification note)
+        {		
+			/** Register Proxy Start **/
+			
+			Facade.RegisterProxy( new UIProxy());
+			Facade.RegisterProxy( new BIDProxy());
+			
+			/** Register Proxy End **/
+			
+			/** Register Mediator Start **/
+            //使用者登入頁面
+
+			//$MemberFields
+
+            
+            /** Register Mediator End **/
+        }
+    }
+}

@@ -1,0 +1,28 @@
+using System;
+using PureMVC.Patterns;
+using Assets.Src.MyUI.Events;
+using Assets.Src.MyUI.View;
+
+namespace Assets.Src.MyUI.Model
+{
+	public class $ClassName : Proxy 
+	{
+		/** ¦WºÙ **/
+		public const string _NAME = "bid_proxy";
+		
+		public $ClassName (string proxyName = null, object data = null)
+			: base(_NAME, data)
+		{}
+		
+
+		/** ¦WºÙ **/
+		public static string name()			
+		{
+			return _NAME;
+        }
+
+
+
+    }
+}
+
